@@ -1,0 +1,178 @@
+body,
+html {
+	font-family: "Roboto", sans-serif;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: rgb(231, 231, 231);
+}
+
+#my-name,
+#speciality {
+	color: rgb(230, 230, 230);
+}
+
+img {
+	box-shadow: 1px 7px 15px black;
+	border-radius: 50%;
+	width: 200px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+	color: rgb(80, 80, 80);
+}
+
+p {
+	line-height: 25px;
+	display: inline;
+}
+
+.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80");
+
+	background-size: cover;
+
+	height: 500px;
+	min-width: 1000px;
+	width: 75%;
+
+	text-align: center;
+	padding: 100px 0px;
+	box-sizing: border-box;
+
+	margin: 20px auto;
+	box-shadow: 3px 2px 10px rgb(107, 107, 107);
+}
+
+.fa {
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+	margin: 5px;
+}
+
+.fa:hover {
+	opacity: 0.5;
+}
+
+.personal-info-container {
+	width: 75%;
+	min-width: 1000px;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: white;
+	margin: 20px auto;
+	box-shadow: 3px 2px 10px rgb(107, 107, 107);
+}
+
+.personal-info,
+.personal-info-2 {
+	width: 55%;
+	padding: 20px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.personal-info-2 {
+	width: 45%;
+}
+
+.bio-item {
+	width: 100%;
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+
+.value {
+	display: inline-block;
+	width: 70%;
+}
+
+.criteria {
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+
+.dark {
+	color: rgb(80, 80, 80);
+}
+
+i {
+	display: inline;
+	width: 30px;
+}
+
+hr {
+	margin: 50px 0px;
+}
+
+.experience {
+	padding: 20px;
+	margin-bottom: 9px;
+}
+
+.experience h2 {
+	margin: 0 20px;
+}
+
+.work-experience {
+	width: 50%;
+	padding: 20px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.specializations {
+	width: 76%;
+	background-color: inherit;
+	box-shadow: none;
+	overflow-x: visible;
+	padding: 0.6%;
+	padding-bottom: 20px;
+	overflow-x: visible;
+	height: 220px;
+	margin-top: 0px;
+}
+
+.specialization,
+.education {
+	background-color: white;
+	box-shadow: 2px 3px 10px rgb(107, 107, 107);
+	width: 49%;
+	padding: 0 20px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	float: left;
+	height: 100%;
+}
+
+.education {
+	float: right;
+}
+
+.list-of-specializations {
+	column-count: 2;
+}
+
+.special-icon {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: content-box;
+	margin-right: 11px;
+	margin-left: 3px;
+}
+
+.dotnet {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 0px;
+}
